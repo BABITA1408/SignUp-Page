@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+body {
+    font-family: 'Sacramento', cursive;
+    
+}
+
+.outerbox {
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(to top left, #8338ec, #7161ef);
+}
+.innerbox {
+    border: 2px solid #cddafd;
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 2px 5px #cdc1ff;
+    width: 30%;
+    margin: 0 35% 0 35%;
+    padding: 20px;
+    position: relative;
+    top: 10vh;
+    border-radius: 20px;
+    z-index: 2;
+}
+.boxheader {
+    margin: 5%;
+    padding: 10px;
+    text-align: center;
+    color: #3b28cc;
+}
+.boxheader h1 {
+    font-size: 3rem;
+    color: #eedff6;
+    text-shadow: 2px 2px black;
+    font-weight: bolder;
+}
+.boxheader p {
+    font-size: 20px;
+    color: black;
+    font-weight: 20px;
+}
+.boxmain p {
+    font-weight: 1000;
+    font-size: 20px;
+    color: #0a014f;
+    padding-top: 2em;
+    text-align: center;
+}
+.boxmain p label {
+    display: block;
+    margin-bottom: 10px;
+}
+.boxmain p input {
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    height: 2em;
+}
+.boxmain p input[type="submit"] {
+    color: white;
+    font-family: 'Sacramento', cursive;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: #0a014f;
+}
+.boxfooter {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #382645;
+}
+.boxfooter p {
+    display: inline;
+    color: aliceblue;
+}
+.boxfooter a {
+    color: #00a8e8;
+}
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: #b79ced;
+    position: absolute;   
+}
+
+
+
+.c1 {
+    top: 100px;
+    left: 30%;
+}
+
+.c2 {
+    bottom: 0px;
+    right: 25%;
+}
